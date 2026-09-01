@@ -33,7 +33,7 @@ Thus, satisfying the Detailed Balance Condition is sufficient to ensure that the
 
 ### Proposal Probability
 
-For a discrete four-directional random walk, a new position is proposed by randomly displacing the current position, with each direction having proposal probabilities (or proposal density, $q$):
+For a discrete four-directional random walk, a new position is proposed by randomly displacing the current position, with each direction having proposal probability $q$ for the discrete case, and proposal density $q$ for the continuous case:
 
 $$
 q(i \rightarrow j) = q(j \rightarrow i) = \frac{1}{4}.
